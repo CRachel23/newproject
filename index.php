@@ -7,7 +7,7 @@
 		$update = true;
 		$record = mysqli_query($db, "SELECT * FROM info WHERE id=$id");
 
-		if (count($record) == 1 ) {
+		if (mysqli_num_rows($record) == 1 ) {
 			$n = mysqli_fetch_array($record);
 			$name = $n['Name'];
 			$ic = $n['IC'];

@@ -19,6 +19,7 @@
 <head>
 	<title>CRUD: CReate, Update, Delete PHP MySQL</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<h1><center>TESTING</center></H1>
 </head>
 <body>
 
